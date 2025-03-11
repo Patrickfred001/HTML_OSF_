@@ -1,0 +1,56 @@
+body {
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 5px;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 5px solid red;
+}
+
+h1, h5 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h3{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    display: inline;
+    padding: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: translateY(-370px) rotate(180deg);
+    border-left: 20px;
+    float: left;
+    color: green;
+    
+}
+
+h4{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    display: inline;
+    padding: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: translateY(-370px) rotate(180deg);
+    border-right: 20px;
+    float: right;
+    color: green;
+    
+}
+

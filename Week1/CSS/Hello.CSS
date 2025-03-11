@@ -1,0 +1,17 @@
+
+h1{
+    background-color: red;
+    color: white;
+}
+p{
+    color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(154, 205, 50);
+}
+h2{
+    height: 400px;
+    width: 200px;
+    background-image: url("Img\ 2.avif");
+
+}
