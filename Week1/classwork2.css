@@ -33,7 +33,7 @@ h3{
     padding: 15px;
     word-spacing: 2px;
     letter-spacing: 1.2px;
-    transform: translateY(-370px) rotate(180deg);
+    transform: translateY(-550px) rotate(180deg);
     border-left: 20px;
     float: left;
     color: green;
@@ -47,7 +47,7 @@ h4{
     padding: 15px;
     word-spacing: 2px;
     letter-spacing: 1.2px;
-    transform: translateY(-370px) rotate(180deg);
+    transform: translateY(-550px) rotate(180deg);
     border-right: 20px;
     float: right;
     color: green;
