@@ -1,8 +1,10 @@
+
 body {
     padding: 10px;
     background-color: white;
     align-items: center;
     justify-items: center;
+    margin-right: 750px;
 }
 
 .free{
@@ -27,7 +29,7 @@ body {
 }
 
 .Next{
-    margin-left: 880px;
+    margin-left: 550px;
     text-align: left;
     padding-right: 3px;
     padding-left: 3px;
@@ -54,7 +56,7 @@ body {
     background-size: auto;
     background-color: rgb(131,253,132);
     padding-left: 30px;
-    padding-right: 200px;
+    padding-right: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -66,7 +68,7 @@ body {
     padding: 10px 20px;
     background-color: black;
     color: white;
-    max-width: 800px;
+    max-width: 900px;
     margin: 5px;  
     width: max-content;
 }
@@ -86,7 +88,7 @@ body {
 }
 
 .MENU{
-    padding-left: 120px;
+    padding-left: 100px;
     margin-top: -60px;
 }
 
@@ -103,7 +105,7 @@ body {
 .up .login-button{
     background-color: green;
     color: white;
-    margin-left: 220px;
+    margin-left: 160px;
     border-radius: 50px;
     font-size: 20px;
 }
@@ -111,6 +113,7 @@ body {
 .search-container input[type="text"]{
     border-radius: 50px;
     width: 150px;
+    margin-left: -180px;
 }
 
 
@@ -120,6 +123,7 @@ body {
 
 .up h2 {
     margin-top: -8px;
+    margin-left: -120px;
 }
 
 .html {
@@ -129,4 +133,44 @@ body {
 .Three {
     background-color: rgb(92, 92, 86);
     width: 360px;
+}
+
+.All {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 560px;
+    
+}
+
+.ONE {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.TWO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+}
+
+.HTML2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+} 
+
+@media screen and(max-width: 430px){
+    body{
+        width: 300px;
+        height: 700px;
+    }
+    
 }

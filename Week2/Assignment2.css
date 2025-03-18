@@ -1,6 +1,17 @@
 
 
-.ONE {
+.one{
+    background-color: rgb(92, 92, 86);
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+.two{
     background-color: rgb(92, 92, 86);
     width: 30%;
     height: 300px;
@@ -10,7 +21,7 @@
     margin: 10px 10px 0px 10px;
 }
 
-.TWO {
+.three{
     background-color: rgb(92, 92, 86);
     width: 30%;
     height: 300px;
@@ -20,12 +31,14 @@
     margin: 10px 10px 0px 10px;
 }
 
-.THREE {
-    background-color: rgb(92, 92, 86);
-    width: 30%;
-    height: 300px;
-    float: left;
-    padding-top: 50px;
-    text-align: center;
-    margin: 10px 10px 0px 10px;
+.one:hover{
+    transform: scale(1.5);
+}
+
+.two:hover{
+    transform: scale(1.5);
+}
+
+.three:hover{
+    transform: scale(1.5);
 }
